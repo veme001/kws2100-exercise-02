@@ -4,7 +4,12 @@ import {Map, View} from "ol";
 import TileLayer from "ol/layer/Tile";
 import {OSM} from "ol/source";
 import {useGeographic} from "ol/proj";
+
+import "ol/ol.css"
+import "./application.css";
+
 const root = ReactDOM.createRoot(document.getElementById("root")!);
+
 
 
 useGeographic();
